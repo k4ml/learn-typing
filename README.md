@@ -28,4 +28,4 @@ luna/go.py:19: error: Incompatible return value type (got "str", expected "T")  
 Found 1 error in 1 file (checked 1 source file)
 ```
 
-Beartype however didn't catch above mismatch.
+Beartype however didn't catch above mismatch. Why? The answer is [here](https://github.com/beartype/beartype/discussions/286#discussioncomment-7097567).
